@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:background="@color/bgRow"
+    tools:context="com.jemberonlineservice.studentdaily.TugasActivity">
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/matkul_spinner"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="95dp" />
+
+    <EditText
+        android:id="@+id/txt_namatgas"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp"
+        android:gravity="top|left"
+        android:inputType="textMultiLine"
+        android:lines="20"
+        android:minLines="5"
+        android:scrollHorizontally="false"
+        android:scrollbars="vertical"
+        android:singleLine="false"
+        android:layout_below="@+id/matkul_spinner"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_15sdp"/>
+
+    <LinearLayout
+        android:id="@+id/ly_hari"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/txt_namatgas"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_15sdp">
+
+        <EditText
+            android:layout_width="@dimen/_178sdp"
+            android:layout_height="match_parent"
+            android:id="@+id/TxtHari2"
+            android:textColor="@color/fontmatkul"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HARI"
+            android:id="@+id/btn_hari2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ly_jam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/ly_hari"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_15sdp">
+
+        <EditText
+            android:layout_width="@dimen/_178sdp"
+            android:layout_height="match_parent"
+            android:id="@+id/TxtJam2"
+            android:textColor="@color/fontmatkul"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JAM"
+            android:id="@+id/btn_jam2" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ly_cekalrm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/ly_jam"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_15sdp">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chkAlarm2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hidupkan Alarm"
+            android:textColor="@color/fontmatkul"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_simpan2"
+        android:text="SIMPAN"
+        android:layout_below="@+id/ly_cekalrm"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"/>
+
+</RelativeLayout>

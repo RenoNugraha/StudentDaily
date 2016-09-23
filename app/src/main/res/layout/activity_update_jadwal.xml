@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgRow"
+    android:scrollbars="vertical"
+    tools:context="com.jemberonlineservice.studentdaily.JadwalActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Matkul/Mapel"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="@color/fontmatkul"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/TxtMatkul2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:textColor="@color/fontmatkul"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Dosen/Guru"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="@color/fontmatkul"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/_10sdp"/>
+
+        <EditText
+            android:id="@+id/TxtDosen2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:textColor="@color/fontmatkul"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_10sdp">
+
+            <EditText
+                android:layout_width="@dimen/_178sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:id="@+id/TxtHari3"
+                android:textColor="@color/fontmatkul"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HARI"
+                android:id="@+id/btn_hari3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_10sdp">
+
+            <EditText
+                android:layout_width="@dimen/_178sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:id="@+id/TxtJam3"
+                android:textColor="@color/fontmatkul"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="JAM"
+                android:id="@+id/btn_jam3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkAlarm3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hidupkan Alarm"
+                android:textColor="@color/fontmatkul"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_simpan3"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:text="SIMPAN"
+            android:layout_gravity="right" />
+    </LinearLayout>
+</RelativeLayout>

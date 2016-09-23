@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:background="@color/bgRow"
+    tools:context="com.jemberonlineservice.studentdaily.CatatanActivity">
+
+    <EditText
+        android:id="@+id/txt_judul3"
+        android:layout_width="match_parent"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_20sdp"/>
+
+    <EditText
+        android:id="@+id/txt_isictn3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200sdp"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="top|left"
+        android:inputType="textMultiLine"
+        android:lines="20"
+        android:minLines="5"
+        android:scrollHorizontally="false"
+        android:scrollbars="vertical"
+        android:singleLine="false"
+        android:layout_below="@+id/txt_judul3"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_15sdp"/>
+
+    <Button
+        android:id="@+id/btn_simpan4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_isictn3"
+        android:text="EDIT"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_15sdp" />
+
+</RelativeLayout>

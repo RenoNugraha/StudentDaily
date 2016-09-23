@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Student Daily</string>
+
+    <string name="NamaPelajar">Atsuko Maeda</string>
+    <string name="TagPelajar">Mahasiswa</string>
+    <string name="NamaSekolah">Universitas Muhammadiyah Jember</string>
+
+    <string name="HTxJadwal">JADWAL</string>
+    <string name="HTxTugas">TUGAS</string>
+    <string name="HTxCatatan">CATATAN</string>
+    <string name="HTxTentang">TENTANG</string>
+
+    <string name="appbar_hapus">Hapus</string>
+
+    <string name="title_activity_tentang">Tentang Student Daily</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="jadwallsttitle">Jadwal</string>
+    <string name="tugaslsttitle">Daftar Tugas</string>
+    <string name="catatanlsttitle">Catatan</string>
+
+    <string name="mEdit">Edit</string>
+    <string name="mHapus">Hapus</string>
+    <string name="pesanhapusdata">Hapus Semua Data ?</string>
+    <string-array name="listmenuclick">
+        <item>@string/mEdit</item>
+        <item>@string/mHapus</item>
+    </string-array>
+</resources>
